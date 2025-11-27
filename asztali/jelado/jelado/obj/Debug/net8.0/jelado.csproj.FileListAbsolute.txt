@@ -1,0 +1,15 @@
+C:\Users\gyarm\source\repos\ujgitproba\jelado\jelado\bin\Debug\net8.0\jelado.exe
+C:\Users\gyarm\source\repos\ujgitproba\jelado\jelado\bin\Debug\net8.0\jelado.deps.json
+C:\Users\gyarm\source\repos\ujgitproba\jelado\jelado\bin\Debug\net8.0\jelado.runtimeconfig.json
+C:\Users\gyarm\source\repos\ujgitproba\jelado\jelado\bin\Debug\net8.0\jelado.dll
+C:\Users\gyarm\source\repos\ujgitproba\jelado\jelado\bin\Debug\net8.0\jelado.pdb
+C:\Users\gyarm\source\repos\ujgitproba\jelado\jelado\obj\Debug\net8.0\jelado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gyarm\source\repos\ujgitproba\jelado\jelado\obj\Debug\net8.0\jelado.AssemblyInfoInputs.cache
+C:\Users\gyarm\source\repos\ujgitproba\jelado\jelado\obj\Debug\net8.0\jelado.AssemblyInfo.cs
+C:\Users\gyarm\source\repos\ujgitproba\jelado\jelado\obj\Debug\net8.0\jelado.csproj.CoreCompileInputs.cache
+C:\Users\gyarm\source\repos\ujgitproba\jelado\jelado\obj\Debug\net8.0\jelado.sourcelink.json
+C:\Users\gyarm\source\repos\ujgitproba\jelado\jelado\obj\Debug\net8.0\jelado.dll
+C:\Users\gyarm\source\repos\ujgitproba\jelado\jelado\obj\Debug\net8.0\refint\jelado.dll
+C:\Users\gyarm\source\repos\ujgitproba\jelado\jelado\obj\Debug\net8.0\jelado.pdb
+C:\Users\gyarm\source\repos\ujgitproba\jelado\jelado\obj\Debug\net8.0\jelado.genruntimeconfig.cache
+C:\Users\gyarm\source\repos\ujgitproba\jelado\jelado\obj\Debug\net8.0\ref\jelado.dll
