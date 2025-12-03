@@ -47,6 +47,9 @@ namespace Jelado
             return $"{mp/3600 }:{mp%3600/60}:{mp % 3600 % 60 }";
 
         }
+        
+
+
 
     }
 }

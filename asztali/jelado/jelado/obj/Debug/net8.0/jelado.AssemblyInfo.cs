@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("jelado")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63fd32bafb731b09abea6ba62563bfbf4a9e3c03")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f37a73026fee24c81e65772e739782e07a6210c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("jelado")]
 [assembly: System.Reflection.AssemblyTitleAttribute("jelado")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

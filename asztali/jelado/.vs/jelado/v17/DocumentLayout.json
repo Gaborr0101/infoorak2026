@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gyarm\\source\\repos\\ujgitproba\\jelado\\",
+  "WorkspaceRootPath": "C:\\Users\\gyarmati.gabor.22\\Documents\\infoorak2026\\asztali\\jelado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63F6FD79-8232-4DD1-947C-CFD591229A90}|jelado\\jelado.csproj|c:\\users\\gyarm\\source\\repos\\ujgitproba\\jelado\\jelado\\adat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63F6FD79-8232-4DD1-947C-CFD591229A90}|jelado\\jelado.csproj|solutionrelative:jelado\\adat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63F6FD79-8232-4DD1-947C-CFD591229A90}|jelado\\jelado.csproj|c:\\users\\gyarmati.gabor.22\\documents\\infoorak2026\\asztali\\jelado\\jelado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F6FD79-8232-4DD1-947C-CFD591229A90}|jelado\\jelado.csproj|solutionrelative:jelado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63F6FD79-8232-4DD1-947C-CFD591229A90}|jelado\\jelado.csproj|c:\\users\\gyarm\\source\\repos\\ujgitproba\\jelado\\jelado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63F6FD79-8232-4DD1-947C-CFD591229A90}|jelado\\jelado.csproj|solutionrelative:jelado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63F6FD79-8232-4DD1-947C-CFD591229A90}|jelado\\jelado.csproj|c:\\users\\gyarmati.gabor.22\\documents\\infoorak2026\\asztali\\jelado\\jelado\\adat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F6FD79-8232-4DD1-947C-CFD591229A90}|jelado\\jelado.csproj|solutionrelative:jelado\\adat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Adat.cs",
-              "DocumentMoniker": "C:\\Users\\gyarm\\source\\repos\\ujgitproba\\jelado\\jelado\\Adat.cs",
+              "DocumentMoniker": "C:\\Users\\gyarmati.gabor.22\\Documents\\infoorak2026\\asztali\\jelado\\jelado\\Adat.cs",
               "RelativeDocumentMoniker": "jelado\\Adat.cs",
-              "ToolTip": "C:\\Users\\gyarm\\source\\repos\\ujgitproba\\jelado\\jelado\\Adat.cs",
+              "ToolTip": "C:\\Users\\gyarmati.gabor.22\\Documents\\infoorak2026\\asztali\\jelado\\jelado\\Adat.cs",
               "RelativeToolTip": "jelado\\Adat.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T11:40:04.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gyarm\\source\\repos\\ujgitproba\\jelado\\jelado\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\gyarmati.gabor.22\\Documents\\infoorak2026\\asztali\\jelado\\jelado\\Program.cs",
               "RelativeDocumentMoniker": "jelado\\Program.cs",
-              "ToolTip": "C:\\Users\\gyarm\\source\\repos\\ujgitproba\\jelado\\jelado\\Program.cs",
+              "ToolTip": "C:\\Users\\gyarmati.gabor.22\\Documents\\infoorak2026\\asztali\\jelado\\jelado\\Program.cs",
               "RelativeToolTip": "jelado\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T11:39:45.161Z",
               "EditorCaption": ""
