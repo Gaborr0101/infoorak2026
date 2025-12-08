@@ -1,4 +1,5 @@
 ﻿
+using System.Security.Cryptography.X509Certificates;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace Jelado
@@ -52,6 +53,16 @@ namespace Jelado
             }
 
             Console.WriteLine($"Elmozdulás: {osszelmozdulas:F3} egység");
+
+
+
+            var kimaradtak = adatok
+                .Skip(1)
+                .Where((adat, i) => adat.kimaradt(adatok[i]).darab > 0)
+                .Select((adat => adat.ora + " "
+                + adat.perc + " "
+                + adat.masodperc + " "
+                + adat.);
 
 
 

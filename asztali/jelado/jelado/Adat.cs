@@ -49,7 +49,43 @@ namespace Jelado
         }
         
 
+        public Elteres kimaradt(Adat masik)
+        {
+            int dX = Math.Abs(masik.x - this.x)/10;
+            int dY = Math.Abs(masik.y - this.y)/10;
+            int dT = (this.elteltmp(masik) / 60)/5;
+
+            if (dX > dT || dY > dT)
+            {
+                return new  Elteres("koordináta-eltérés",Math.Max(dX,dY) );
+            }
+
+
+            else if (dX > dT && dY > dT)
+            {
+                return new  Elteres("idő-eltérés", dT );
+            }
+            else
+            {
+                return new Elteres( "",0);
+            }
+
+        }
 
 
     }
+
+
+    class Elteres
+    {
+        public string tipus;
+        public int darab;
+
+        public Elteres(string tipus, int darab)
+        {
+            this.tipus = tipus;
+            this.darab = darab;
+        }
+    }
+
 }
