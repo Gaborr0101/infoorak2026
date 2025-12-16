@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade</title>
+    <style>
+        #szoveg
+        {
+            font-size: 200px;
+            text-align: center;
+        }
+        #mekdonaldsz{ display:inline-block; }
+        #mekdonaldsz .letter{
+            display:inline-block;
+            margin: 0 6px;
+            opacity: 0;
+            transform: translateY(0);
+            will-change: transform, opacity;
+        }
+        @media (max-width:600px){
+            #szoveg{ font-size: 80px; }
+        }
+    </style>
+</head>
+<body>
+    <div id="szoveg">
+
+
+
+        <button id="kezdes" onclick="indit()">inditás</button>
+        <button id="leall" onclick="leall()">leállítás</button>
+        <div>
+            <p id="mekdonaldsz">mekdonáldsz</p>
+        </div>
+
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        (function(){
+            const $p = $("#mekdonaldsz");
+            let eredeti = $p.text().trim() || "mekdonáldsz";
+            $p.empty();
+
+            const betuk = eredeti.split("").map(ch => {
+                const $s = $("<span>").addClass('letter').text(ch);
+                $p.append($s);
+                return $s;
+            });
+
+            let fut = false;
+            let jelenlegi = 0;
+            const beFadeIdo = 500;
+            const kiFadeIdo = 500;
+            const tartas = 400;
+            const atfedesiKeses = 300;
+            const scheduled = [];
+
+            function clearScheduled(){
+                while(scheduled.length){
+                    const id = scheduled.pop();
+                    clearTimeout(id);
+                }
+            }
+
+            function showLetter(index){
+                if(!fut) return;
+                const $el = betuk[index];
+                $el.stop(true,true).css({ opacity: 0 }).fadeTo(beFadeIdo, 1);
+
+                const hideTimeout = setTimeout(function(){
+                    if(!fut) return;
+                    $el.fadeTo(kiFadeIdo, 0);
+                }, beFadeIdo + tartas);
+                scheduled.push(hideTimeout);
+
+                const next = (index + 1) % betuk.length;
+                const nextTimeout = setTimeout(function(){
+                    if(!fut) return;
+                    showLetter(next);
+                }, atfedesiKeses);
+                scheduled.push(nextTimeout);
+            }
+
+            window.indit = function(){
+                if(fut) return;
+                fut = true;
+                jelenlegi = 0;
+                clearScheduled();
+                $p.css({ visibility: 'visible' });
+                for(const $el of betuk) $el.css({ opacity: 0 });
+                showLetter(jelenlegi);
+            };
+
+            window.leall = function(){
+                fut = false;
+                clearScheduled();
+                
+                for(const $el of betuk){
+                    $el.stop(true,true).css({ opacity: 0 });
+                }
+                $p.css({ visibility: 'hidden' });
+            };
+        })();
+    </script>
+   
+</body>
+</html>
