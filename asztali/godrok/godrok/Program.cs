@@ -83,6 +83,7 @@ namespace godrok
             Console.WriteLine("A gödrök száma: " + godrokSzama);
 
 
+
             Console.WriteLine("6.Feladat");
 
             //Ha a 2. feladatban beolvasott helyen nincs gödör, akkor „Az adott helyen nincs gödör.”
@@ -97,8 +98,6 @@ namespace godrok
             //(c feladat) mekkora a legnagyobb mélysége!A meghatározott értéket írja a képernyőre!
             //(d feladat) mekkora a térfogata, ha szélessége minden helyen 10 méternyi! A meghatározott
             //értéket írja a képernyőre!
-
-
             //(e feladat) a félkész csatorna esőben jelentős mennyiségű vizet fogad be.Egy gödör annyi
             //vizet képes befogadni anélkül, hogy egy nagyobb szélvihar hatására se öntsön
             //ki, amennyi esetén a víz felszíne legalább 1 méter mélyen van a külső felszínhez
@@ -130,33 +129,33 @@ namespace godrok
                         break;
                     }
                 }
-                Console.WriteLine($"A gödör kezdőpontja: {kezdopont + 1}, végpontja: {vegpont + 1}.");
+                Console.WriteLine($"A gödör kezdete: {kezdopont + 1}méter, a gödör vége: {vegpont + 1}méter.");
 
-                //b feladat
-                Console.WriteLine("b feladat");
-                int legmelyebb = kezdopont;
-                for (int i = kezdopont; i <= vegpont; i++)
+            //b feladat
+            Console.WriteLine("b feladat");
+            int legmelyebb = kezdopont;
+            for (int i = kezdopont; i <= vegpont; i++)
+              {
+                 if (adatok[i].melyseg > adatok[legmelyebb].melyseg)
+                 {
+                   legmelyebb = i;
+                 }
+              }
+            bool folyamatosanMelyul = true;
+            for (int i = kezdopont; i < legmelyebb; i++)
                 {
-                    if (adatok[i].melyseg > adatok[legmelyebb].melyseg)
-                    {
-                        legmelyebb = i;
-                    }
+                  if (adatok[i].melyseg >= adatok[i + 1].melyseg)
+                   {
+                      folyamatosanMelyul = false;
+                      break;
+                   }
                 }
-                bool folyamatosanMelyul = true;
-                for (int i = kezdopont; i < legmelyebb; i++)
+            for (int i = legmelyebb; i < vegpont; i++)
                 {
-                    if (adatok[i].melyseg >= adatok[i + 1].melyseg)
+                  if (adatok[i].melyseg <= adatok[i + 1].melyseg)
                     {
-                        folyamatosanMelyul = false;
-                        break;
-                    }
-                }
-                for (int i = legmelyebb; i < vegpont; i++)
-                {
-                    if (adatok[i].melyseg <= adatok[i + 1].melyseg)
-                    {
-                        folyamatosanMelyul = false;
-                        break;
+                      folyamatosanMelyul = false;
+                      break;
                     }
                 }
                 if (folyamatosanMelyul)
@@ -169,27 +168,26 @@ namespace godrok
                 }
                 //c feladat
                 Console.WriteLine("c feladat");
-                Console.WriteLine($"A legmélyebb pont mélysége: {adatok[legmelyebb].melyseg} méter.");
+                Console.WriteLine($"A legnagyobb mélysége: {adatok[legmelyebb].melyseg} méter.");
 
                 //d feladat
                 Console.WriteLine("d feladat");
-               
-                
+                int terfogat = 0;
+                for (int i = kezdopont; i <= vegpont; i++)
+                {
+                    terfogat += adatok[i].melyseg * 10;
+                }
+                Console.WriteLine($"A^térfogata: {terfogat} m^3.");
 
                 //e feladat
                 Console.WriteLine("e feladat");
                
-
-
-
-
-
-
-
-
-
-
-
+                int vizMennyiseg = 0;
+                for (int i = kezdopont; i <= vegpont; i++)
+                {
+                    vizMennyiseg += (adatok[i].melyseg - 1) * 10;
+                }
+                Console.WriteLine($"A befogadott vízmennyiség: {vizMennyiseg} m^3.");
 
 
             }

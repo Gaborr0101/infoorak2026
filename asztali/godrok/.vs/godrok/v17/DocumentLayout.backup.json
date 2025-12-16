@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{63DB62FC-D490-4619-A098-95CEF5AFF5F3}|godrok\\godrok.csproj|solutionrelative:godrok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{63DB62FC-D490-4619-A098-95CEF5AFF5F3}|godrok\\godrok.csproj|c:\\users\\gyarmati.gabor.22\\documents\\infoorak2026\\asztali\\godrok\\godrok\\godor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63DB62FC-D490-4619-A098-95CEF5AFF5F3}|godrok\\godrok.csproj|solutionrelative:godrok\\godor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63DB62FC-D490-4619-A098-95CEF5AFF5F3}|godrok\\godrok.csproj|c:\\users\\gyarmati.gabor.22\\documents\\infoorak2026\\asztali\\godrok\\godrok\\adat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63DB62FC-D490-4619-A098-95CEF5AFF5F3}|godrok\\godrok.csproj|solutionrelative:godrok\\adat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Godor.cs",
+              "DocumentMoniker": "C:\\Users\\gyarmati.gabor.22\\Documents\\infoorak2026\\asztali\\godrok\\godrok\\Godor.cs",
+              "RelativeDocumentMoniker": "godrok\\Godor.cs",
+              "ToolTip": "C:\\Users\\gyarmati.gabor.22\\Documents\\infoorak2026\\asztali\\godrok\\godrok\\Godor.cs",
+              "RelativeToolTip": "godrok\\Godor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T10:22:03.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Adat.cs",
               "DocumentMoniker": "C:\\Users\\gyarmati.gabor.22\\Documents\\infoorak2026\\asztali\\godrok\\godrok\\Adat.cs",
               "RelativeDocumentMoniker": "godrok\\Adat.cs",
@@ -30,8 +47,7 @@
               "RelativeToolTip": "godrok\\Adat.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T09:52:35.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T09:52:35.124Z"
             },
             {
               "$type": "Document",
@@ -41,7 +57,7 @@
               "RelativeDocumentMoniker": "godrok\\Program.cs",
               "ToolTip": "C:\\Users\\gyarmati.gabor.22\\Documents\\infoorak2026\\asztali\\godrok\\godrok\\Program.cs",
               "RelativeToolTip": "godrok\\Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAowFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAAwMEAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T09:45:54.292Z",
               "EditorCaption": ""

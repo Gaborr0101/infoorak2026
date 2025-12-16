@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("godrok")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+521783c2e3e52e56c806aceabf423259797accd2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65b668e0d403ecafdaf4a8e2d0b76a0aa5ddda79")]
 [assembly: System.Reflection.AssemblyProductAttribute("godrok")]
 [assembly: System.Reflection.AssemblyTitleAttribute("godrok")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
