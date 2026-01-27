@@ -1,0 +1,15 @@
+C:\Users\gyarmati.gabor.22\Documents\infoorak2026\asztali\regex\regex2\regex2\obj\Debug\net8.0\regex2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gyarmati.gabor.22\Documents\infoorak2026\asztali\regex\regex2\regex2\obj\Debug\net8.0\regex2.AssemblyInfoInputs.cache
+C:\Users\gyarmati.gabor.22\Documents\infoorak2026\asztali\regex\regex2\regex2\obj\Debug\net8.0\regex2.AssemblyInfo.cs
+C:\Users\gyarmati.gabor.22\Documents\infoorak2026\asztali\regex\regex2\regex2\obj\Debug\net8.0\regex2.csproj.CoreCompileInputs.cache
+C:\Users\gyarmati.gabor.22\Documents\infoorak2026\asztali\regex\regex2\regex2\obj\Debug\net8.0\regex2.sourcelink.json
+C:\Users\gyarmati.gabor.22\Documents\infoorak2026\asztali\regex\regex2\regex2\bin\Debug\net8.0\regex2.exe
+C:\Users\gyarmati.gabor.22\Documents\infoorak2026\asztali\regex\regex2\regex2\bin\Debug\net8.0\regex2.deps.json
+C:\Users\gyarmati.gabor.22\Documents\infoorak2026\asztali\regex\regex2\regex2\bin\Debug\net8.0\regex2.runtimeconfig.json
+C:\Users\gyarmati.gabor.22\Documents\infoorak2026\asztali\regex\regex2\regex2\bin\Debug\net8.0\regex2.dll
+C:\Users\gyarmati.gabor.22\Documents\infoorak2026\asztali\regex\regex2\regex2\bin\Debug\net8.0\regex2.pdb
+C:\Users\gyarmati.gabor.22\Documents\infoorak2026\asztali\regex\regex2\regex2\obj\Debug\net8.0\regex2.dll
+C:\Users\gyarmati.gabor.22\Documents\infoorak2026\asztali\regex\regex2\regex2\obj\Debug\net8.0\refint\regex2.dll
+C:\Users\gyarmati.gabor.22\Documents\infoorak2026\asztali\regex\regex2\regex2\obj\Debug\net8.0\regex2.pdb
+C:\Users\gyarmati.gabor.22\Documents\infoorak2026\asztali\regex\regex2\regex2\obj\Debug\net8.0\regex2.genruntimeconfig.cache
+C:\Users\gyarmati.gabor.22\Documents\infoorak2026\asztali\regex\regex2\regex2\obj\Debug\net8.0\ref\regex2.dll
