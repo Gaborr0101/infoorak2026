@@ -1,0 +1,29 @@
+﻿<Window x:Class="asd.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:asd"
+        mc:Ignorable="d"
+        Title="Vércukornapló" Height="450" Width="800">
+    <Grid Margin="10">
+        <Label Content="Nap sorszáma:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,10,0,0"/>
+        <ComboBox x:Name="napsorszam" HorizontalAlignment="Left" Margin="140,12,0,0" VerticalAlignment="Top" Width="80"/>
+
+        <Label Content="Napszak:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,46,0,0"/>
+        <ComboBox x:Name="napszak" HorizontalAlignment="Left" Margin="140,48,0,0" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Mérés ideje:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="63,86,0,0" RenderTransformOrigin="0.866,0.541"/>
+        <ComboBox x:Name="etkezesiIdo" HorizontalAlignment="Left" Margin="140,88,0,0" VerticalAlignment="Top" Width="180"/>
+
+        <Label Content="Az érték 0,0-40,0 között::" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-4,124,0,0"/>
+        <TextBox x:Name="ertekTextBox" HorizontalAlignment="Left" Margin="142,128,0,0" VerticalAlignment="Top" Width="80"/>
+
+        <Button x:Name="addButton" Content="Hozzáad" HorizontalAlignment="Left" Margin="10,168,0,0" VerticalAlignment="Top" Width="100" Click="addButton_Click"/>
+        <Button x:Name="saveButton" Content="Mentés fájlba" HorizontalAlignment="Left" Margin="120,168,0,0" VerticalAlignment="Top" Width="120" Click="saveButton_Click"/>
+
+        <Label Content="Eddig bevitt adatok:" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Center" Margin="0,236,0,0" VerticalAlignment="Top" Width="760" Height="178"/>
+
+    </Grid>
+</Window>

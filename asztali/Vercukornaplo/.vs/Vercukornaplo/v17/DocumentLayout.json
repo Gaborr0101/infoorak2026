@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gyarmati.gabor.22\\source\\repos\\Vercukornaplo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB50D1-993F-4DE3-953B-3E7827995DB3}|Vercukornaplo\\Vercukornaplo.csproj|c:\\users\\gyarmati.gabor.22\\source\\repos\\vercukornaplo\\vercukornaplo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CFFB50D1-993F-4DE3-953B-3E7827995DB3}|Vercukornaplo\\Vercukornaplo.csproj|solutionrelative:vercukornaplo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB50D1-993F-4DE3-953B-3E7827995DB3}|Vercukornaplo\\Vercukornaplo.csproj|c:\\users\\gyarmati.gabor.22\\source\\repos\\vercukornaplo\\vercukornaplo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFFB50D1-993F-4DE3-953B-3E7827995DB3}|Vercukornaplo\\Vercukornaplo.csproj|solutionrelative:vercukornaplo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB50D1-993F-4DE3-953B-3E7827995DB3}|Vercukornaplo\\Vercukornaplo.csproj|c:\\users\\gyarmati.gabor.22\\source\\repos\\vercukornaplo\\vercukornaplo\\adat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFFB50D1-993F-4DE3-953B-3E7827995DB3}|Vercukornaplo\\Vercukornaplo.csproj|solutionrelative:vercukornaplo\\adat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\gyarmati.gabor.22\\source\\repos\\Vercukornaplo\\Vercukornaplo\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Vercukornaplo\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\gyarmati.gabor.22\\source\\repos\\Vercukornaplo\\Vercukornaplo\\MainWindow.xaml",
+              "RelativeToolTip": "Vercukornaplo\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T08:03:11.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\gyarmati.gabor.22\\source\\repos\\Vercukornaplo\\Vercukornaplo\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Vercukornaplo\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\gyarmati.gabor.22\\source\\repos\\Vercukornaplo\\Vercukornaplo\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Vercukornaplo\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowCwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T08:03:09.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Adat.cs",
+              "DocumentMoniker": "C:\\Users\\gyarmati.gabor.22\\source\\repos\\Vercukornaplo\\Vercukornaplo\\Adat.cs",
+              "RelativeDocumentMoniker": "Vercukornaplo\\Adat.cs",
+              "ToolTip": "C:\\Users\\gyarmati.gabor.22\\source\\repos\\Vercukornaplo\\Vercukornaplo\\Adat.cs",
+              "RelativeToolTip": "Vercukornaplo\\Adat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T08:03:34.563Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
