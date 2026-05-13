@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body onload="betolt()">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <p>2.feladat: A vetélkedőn <span id="versenyzokszama"></span> versenyző indult.</p>
+                <button onclick="f2()" class="btn" type="button"></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <p>3.feladat: A versenyző azonosítója = <input type="text" id="versenyzoazonosito"> </p>
+                <p><span id="versenyzovalasz"></span> (a versenyző válasza)</p>
+                <button onclick="f3()" class="btn" type="button"></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <p>4.feladat:</p> 
+                <button onclick="f4()" type="button" class="btn" ></button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let adatok=[]
+        function betolt()
+        {
+            fetch("valaszok.txt")
+            .then(x=>x.text())
+            .then(y=>{
+
+             adatok=  y.replaceAll("\r","").trim().split("\n");
+            })
+        }
+
+    </script>
+</body>
+</html>

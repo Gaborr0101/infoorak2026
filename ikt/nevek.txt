@@ -1,0 +1,425 @@
+1/A	Balog Denisz Brendon
+1/A	Farkas Levente Antal
+1/A	Farkas Viktória Alexandra
+1/A	Fehér Hanna Klaudia
+1/A	Fehér Ivett Karola
+1/A	Fehér Péter
+1/A	Fehér Szofia Zsófia
+1/A	Gondos Levente
+1/A	Makula Nelli
+1/A	Nagy Lina Laura
+1/A	Pozák Dorina
+1/A	Pozák Zsolt
+1/A	Rácz Sándor
+1/A	Túró Béla
+1/A	Túró Csenge Karolina
+1/A	Túró Jonatán
+1/A	Túró Raul
+1/A	Vitáris Csenge Ivett
+1/B	Burai Erzsébet Anna
+1/B	Csonka Lolita
+1/B	Fátyol Gábor
+1/B	Fehér Dávid Krisztián
+1/B	Fehér Fanni
+1/B	Fehér Krisztián
+1/B	Fehér Mirella Aranka
+1/B	Fehér Noel Krisztofer
+1/B	Mága Gergõ
+1/B	Mányi Erik Kevin
+1/B	Nagy Ketrin
+1/B	Nagy Mirella
+1/B	Nagy Zoltán
+1/B	Rattesid Diána
+1/B	Rostás Armandó
+1/B	Szallár Hanna Mirella
+1/B	Tóth Hanna Regina
+1/B	Túró Bianka Rebeka
+1/C	Babó Regina
+1/C	Bacsu Milán Patrik
+1/C	Bencze Friderika
+1/C	Farkas Kevin
+1/C	Fátyol Kristóf
+1/C	Fehér Adrián Levente
+1/C	Fehér Amira Anikó
+1/C	Fehér Gergõ
+1/C	Fehér Kamilla Dorina
+1/C	Fehér Milán
+1/C	Lakatos Fruzsina
+1/C	Lakatos Valentina Ketrin
+1/C	Puzsoma Mirella
+1/C	Rácz Gergõ Endre
+1/C	Turó Mirella Nikoletta
+1/C	Turó Zsófia Eszter
+1/C	Varga Noé
+2/A	Farkas Dorina
+2/A	Farkas Sándor Szilveszter
+2/A	Fehér Hanna Mirella
+2/A	Fehér Milán
+2/A	Fehér Nikolett
+2/A	Fehér Zsófia Vanessza
+2/A	Gondos Milán Alex
+2/A	Mányi Márk
+2/A	Pozák Beatrix
+2/A	Puzsoma Armandó
+2/A	Rácz Nelli Andrea
+2/A	Susa Dorina
+2/A	Tóth Imre Elemér
+2/A	Túró Kristóf Krisztián
+2/A	Túró Letícia
+2/A	Túró Levente
+2/A	Turó Liliána Léni
+2/B	Bakró Jázmin Lola
+2/B	Bugát Rozália
+2/B	Csonka Alíz Ildikó
+2/B	Csonka Hermina Amira
+2/B	Csonka Luca
+2/B	Fehér Ketrin
+2/B	Fehér Noel Nimród
+2/B	Fehér Róbert
+2/B	Fehér Tamás Levente
+2/B	Fehér Viktória
+2/B	Imre Titanilla Leila
+2/B	Ivanics József Krisztián
+2/B	Jónás Levente Tamás
+2/B	Pozák Lorina Terézia
+2/B	Rácz András László
+2/B	Réti Kira Rita
+2/B	Turó Dzsamilla
+2/B	Turó Sándor Richárd
+2/B	Tyukodi Leila Erzsébet
+2/B	Vitáris Hanna
+2/C	Bugát József
+2/C	Csonka Hajnalka
+2/C	Csonka Tifani
+2/C	Dandás Annabell
+2/C	Farkas Milán
+2/C	Fehér Fédra Mária
+2/C	Fehér József Tibor
+2/C	Fehér Kristóf
+2/C	Fehér Szilvia Leila
+2/C	Fehér Zsófia Anikó
+2/C	Gecse Kamilla Nikolett
+2/C	Hérmán Annabell
+2/C	Lakatos Ábel Levente
+2/C	Lakatos Dominik
+2/C	Lakatos Zsigmond Róbert
+2/C	Lólé Dávid
+2/C	Lólé Noel
+2/C	Nagy István
+2/C	Pozák Mirabella Viktória
+2/C	Rácz Fanni Napsugár
+2/C	Turó Béla Miklós
+2/C	Turó Sándor Patrik
+3/A	Bakos Ferenc Áron
+3/A	Farkas Dávid Richárd
+3/A	Farkas Melinda
+3/A	Fátyol Béla
+3/A	Fátyol Csenge Erzsébet
+3/A	Fehér Benjámin
+3/A	Fehér Mirjam
+3/A	Fehér Zsolt
+3/A	Fekete Alex Zsolt
+3/A	Fekete Zsigmond Pál
+3/A	Gondos Dorián Sándor
+3/A	Lólé Lana
+3/A	Lólé Zselyke
+3/A	Oláh Milán
+3/A	Pozák Vanessza Viktória
+3/A	Túró Dénes
+3/A	Turó Kiara Csilla
+3/A	Turó Nikoletta Rebeka
+3/A	Túró Roland Dzsasztin
+3/B	Bakró Hanna Viktória
+3/B	Farkas Dominik Péter
+3/B	Farkas Mária
+3/B	Fátyol Tifani Barbara
+3/B	Fehér Ákos
+3/B	Fehér Annabella
+3/B	Fehér Izabella Réka
+3/B	Fehér Krisztofer
+3/B	Fehér Norbert Dániel
+3/B	Iqbal Ahmed
+3/B	Lakatos Vanessza
+3/B	Mányi Melissza Melinda
+3/B	Pozák Kamilla Dóra
+3/B	Puzsoma Dominik
+3/B	Puzsoma Krisztofer
+3/B	Puzsoma Levente
+3/B	Tallósi László Rikárdó
+3/B	Turó Kornél Noel
+3/B	Turó Nikolasz István
+3/B	Tyukodi Sándor
+3/C	Farkas Jenõ Nikolasz
+3/C	Farkas Mirella
+3/C	Fehér Hanna Sára
+3/C	Fehér Jázmin
+3/C	Fehér Krisztofer
+3/C	Fehér Leila Boglárka
+3/C	Fehér Miranda
+3/C	Jónás Krisztián
+3/C	Lakatos Dzsenifer Mária
+3/C	Nagy József
+3/C	Palcsik Roland Nikolasz
+3/C	Puzsoma Csenge
+3/C	Turó Attila
+3/C	Turó Boglárka
+3/C	Túró Ernõ
+3/C	Turó Levente
+3/C	Túró Miklós József
+3/C	Turó Róbert
+3/C	Varga Benjámin Dániel
+4/A	Balogh Viktória Csenge
+4/A	Budai Martin
+4/A	Farkas Gergõ András
+4/A	Farkas Zoltán
+4/A	Fátyol Melissza Róza
+4/A	Fehér Csenge
+4/A	Fehér Krisztián Krisztofer
+4/A	Fehér Laura Larissza
+4/A	Nagy Áron Jenõ
+4/A	Német Levente Dominik
+4/A	Oláh Marcell
+4/A	Pozák Kálmán Kevin
+4/A	Pozák Zoltán
+4/A	Puzsoma Patrik
+4/A	Turó Karolina
+4/A	Turó Rómeó Gyula
+4/B	Babó Nikoletta
+4/B	Farkas Csenge Melodi
+4/B	Fátyol Krisztofer
+4/B	Fehér Csenge Zsófia
+4/B	Fehér Roland
+4/B	Fehérvári József Róbert
+4/B	Jónás Debóra Szimonetta
+4/B	Mányi Dominik Viktor
+4/B	Nagy Jázmin Liliána
+4/B	Német Gergõ
+4/B	Puzsoma Krisztián
+4/B	Rácz Gergõ
+4/B	Túró Erik
+4/B	Turó Judit Dorina
+4/B	Turó Martin
+4/B	Turó Sándor
+4/B	Tyukodi Tekla
+4/C	Balog Krisztián Nikolasz
+4/C	Farkas Natália Leila
+4/C	Fátyol Armandó Márton
+4/C	Fátyol Leila Alexandra
+4/C	Fátyol Sándor Eduárdó
+4/C	Fehér Alex Milán
+4/C	Jónás Viktor Balázs
+4/C	Lakatos Bianka Boglárka
+4/C	Poták Melissza Mária
+4/C	Puzsoma Florina Szabina
+4/C	Túró Béla
+4/C	Turó Larissza Jázmin
+5/A	Balog Leila Hanna
+5/A	Fátyol Éva Szilvia
+5/A	Fehér Levente
+5/A	Fehér Lilla
+5/A	Fehér Melissza Cintia
+5/A	Fehér Richárd
+5/A	Fehér Sándor Viktor
+5/A	Fehér Zoltán Róbert
+5/A	Jónás István Kristóf
+5/A	Lakatos Annabella
+5/A	Lakatos Leila
+5/A	Nagy László
+5/A	Puzsoma Milán Dávid
+5/A	Rattesid Kevin
+5/A	Turó Leila Virág
+5/A	Turó Liliána
+5/A	Turó Martin
+5/A	Turó Tamás Rikárdó
+5/A	Turó Vanessza Vivien
+5/B	Bakró Mirella Fanni
+5/B	Csonka Henrietta
+5/B	Farkas Béla
+5/B	Farkas Vanessza Erika
+5/B	Fehér János Kristóf
+5/B	Fehér Kevin Martin
+5/B	Fehér Róza Ketrin
+5/B	Fehér Viktor Dániel
+5/B	Fehér Viktor Krisztián
+5/B	Góman Kamilla Angelika
+5/B	Lakatos László Kristóf
+5/B	Mányi Krisztofer Márkó
+5/B	Puzsoma Dávid Krisztofer
+5/B	Tóth Alexandra Kinga
+5/B	Tóth Kincsõ Ivett
+5/B	Turó Gergõ
+5/B	Turó Hanna
+5/B	Turó Károly
+5/B	Turó Kevin Zsigmond
+5/B	Túró Miklós Ferenc
+5/C	Bacsu Viktória Zsuzsanna
+5/C	Bencze Bianka
+5/C	Csik Milán
+5/C	Csik Roland
+5/C	Fátyol Boglárka Jolán
+5/C	Fehér Alex Milán
+5/C	Fehér Dorina
+5/C	Fehér Erik Bence
+5/C	Fehér Karolina
+5/C	Fehér Krisztofer Ernõ
+5/C	Fehér Melodi Vivien
+5/C	Fehér Valentina Anna
+5/C	Gondos Krisztofer
+5/C	Nagy Hanna
+5/C	Szabó Dávid Imre
+5/C	Turó Dominik
+5/C	Turó János
+5/C	Tyukodi Dezsõ Bence
+6/A	Csonka Levente Miklós
+6/A	Fátyol József
+6/A	Fehér Cintia Dorina
+6/A	Fehér Csenge Brigitta
+6/A	Fehér Dominik
+6/A	Fehér Fruzsina Blanka
+6/A	Fehér Kamilla
+6/A	Fehér Krisztofer Márkó
+6/A	Fehér Patrik
+6/A	Fehér Szimonetta
+6/A	Gecse Zsolt
+6/A	Pozák Ildikó
+6/A	Puzsoma Krisztofer
+6/A	Puzsoma Nikolasz
+6/A	Rácz József
+6/A	Szabó Zsolt
+6/A	Túró Brúnó Vilmos
+6/A	Turó Zsófia
+6/B	Bencze Zsolt
+6/B	Bugát Hanna Csilla
+6/B	Csonka Csilla
+6/B	Farkas Amira Hanna
+6/B	Fehér Brendon
+6/B	Fehér Dorina Leila
+6/B	Fehér Erik Martin
+6/B	Fehér Zoltán
+6/B	Geszti Tamás András
+6/B	Ivanics Dominik
+6/B	Lakatos Róbert
+6/B	Mága Gábor
+6/B	Nagy Karolina
+6/B	Pozák Ferenc
+6/B	Rácz Viktor
+6/B	Tallósi Amanda Éva
+6/B	Túró Gábor
+6/B	Túró Patrik Dominik
+6/B	Túró Richárd
+6/C	Borbély Jázmin
+6/C	Burai Kevin Sándor
+6/C	Dandás József István
+6/C	Farkas Richárd Péter
+6/C	Fehér Dániel
+6/C	Fehér Dominik
+6/C	Fehér Iván Dániel
+6/C	Geszti Csenge Melinda
+6/C	Gondos Diána Violetta
+6/C	Gondos Hanna Kinga
+6/C	Herczeg Viktor Dominik
+6/C	Hérmán Dániel
+6/C	Kelemen Dorina Virág
+6/C	Lakatos Krisztofer Márk
+6/C	Lólé Hanna
+6/C	Német Péter József
+6/C	Palcsik Nelli Léna
+6/C	Rostás Ketrin
+6/C	Turó Angelika Katalin
+6/C	Tyukodi Levente
+7/A	Balog Kevin
+7/A	Burai Béla
+7/A	Csonka Gyula
+7/A	Fátyol Milán
+7/A	Fehér Erik
+7/A	Fehér Péter
+7/A	Gondos Szebasztián Patrik
+7/A	Lakatos Jázmin Aranka
+7/A	Puzsoma Gyula
+7/A	Puzsoma Kevin
+7/A	Rácz Leila Viktória
+7/A	Túró Anasztázia
+7/A	Turó Jázmin
+7/A	Túró Nikolasz
+7/A	Tyukodi Tina
+7/B	Bugát János Miklós
+7/B	Csonka Dániel
+7/B	Fátyol Virgínia Ráhel
+7/B	Fehér Szabolcs
+7/B	Fehér Zoltán
+7/B	Hérmán Kevin
+7/B	Katona Virág Emília
+7/B	Mányi Róbert Milán
+7/B	Pozák Rómeó Renátó
+7/B	Takács Barbara
+7/B	Túró Csenge
+7/B	Turó Krisztián
+7/B	Turó Miklós Ádám
+7/B	Turó Vanessza
+7/B	Tyukodi Csaba
+7/C	Farkas Karolina Dzsenifer
+7/C	Fehér Róbert András
+7/C	Gondos János Kristóf
+7/C	Herczeg Violetta Virág
+7/C	Kelemen Valentina Erika
+7/C	Kótai Gergõ Szilveszter
+7/C	Lakatos Gábor
+7/C	Mága Annabella
+7/C	Rácz Jázmin Boglárka
+7/C	Rattesid Jenõ
+7/C	Turó Dániel
+7/C	Túró Kevin
+7/C	Turó Krisztofer
+7/C	Túró Máté Viktor
+8/A	Bacsu Péter Dániel
+8/A	Budai Richárd
+8/A	Csonka Dominik Bence
+8/A	Csonka Erik
+8/A	Csonka Martin
+8/A	Duka Jázmin Zsüliett
+8/A	Fehér Kevin Béla
+8/A	Fehér Richárd
+8/A	Gecse Ferenc Armandó
+8/A	Gondos Martina Bianka
+8/A	Kótai Nikolett
+8/A	Pozák Jolán Mária
+8/A	Túró Dzsenifer
+8/A	Turó Erzsébet
+8/A	Turó Marianna
+8/A	Turó Zoltán
+8/A	Váradi Boglárka
+8/B	Burai Norman
+8/B	Farkas Dorina
+8/B	Farkas Jázmin Edit
+8/B	Farkas Krisztián
+8/B	Fátyol Arnold
+8/B	Fehér Péter
+8/B	Fehér Viola
+8/B	Gondos Martin Milán
+8/B	Jónás Ramóna Letícia
+8/B	Lakatos Jázmin Irma
+8/B	Lólé Levente
+8/B	Mága Dzsenifer
+8/B	Puzsoma Elizabet
+8/B	Szilágyi Jázmin
+8/B	Turó Debóra
+8/B	Túró Leila
+8/B	Váradi Sztella
+8/C	Csonka Krisztofer József
+8/C	Farkas Georgina
+8/C	Fehér Adrienn
+8/C	Fehér Gergõ
+8/C	Fehér Kálmán Kevin
+8/C	Fehér Kevin
+8/C	Fehér Noémi
+8/C	Fehér Róbert
+8/C	Fehér Szebasztián Krisztián
+8/C	Gazsó Martin
+8/C	Gondos Dominika Leila
+8/C	Mága Krisztofer
+8/C	Mága Melissza
+8/C	Majorszki Mária Erzsébet
+8/C	Nagy Renáta Liliána
+8/C	Puzsoma Lehel Attila
+8/C	Rácz Virág Andrea
+8/C	Turó Zsombor Máté
