@@ -10,16 +10,16 @@
 <body onload="betolt()">
     <div class="container">
         <div class="row">
-            <div class="col-3">
-                <p>2.feladat: A vetélkedőn <span id="versenyzokszama"></span> versenyző indult.</p>
-                <button onclick="f2()" class="btn" type="button"></button>
-            </div>
+            <header class="col-12"><h1 class="text-center">Tesztverseny</h1></header>
         </div>
         <div class="row">
-            <div class="col-3">
-                <p>3.feladat: A versenyző azonosítója = <input type="text" id="versenyzoazonosito"> </p>
-                <p><span id="versenyzovalasz"></span> (a versenyző válasza)</p>
-                <button onclick="f3()" class="btn" type="button"></button>
+            <div class="col-6">
+                <h2 class="text-primary">2.Feladat:</h2>
+                <p>A vetélkedőn <span class="text-success fw-bold" id="f2"></span> versenyző indult.</p>
+            </div>
+            <div class="col-6">
+                <h2 class="text-primary">3.Feladat:</h2>
+                <label for="f3">A versenyző azonosítója = <input type="text" class="form-control" placeholder="AB123" id="f3"> </label>
             </div>
         </div>
         <div class="row">
@@ -31,17 +31,42 @@
     </div>
 
     <script>
-        let adatok=[]
+        let adatok=[];
+        let helyesvalasz="";
         function betolt()
         {
+
             fetch("valaszok.txt")
             .then(x=>x.text())
             .then(y=>{
 
-             adatok=  y.replaceAll("\r","").trim().split("\n");
+                adatok=y.replaceAll("\r","").trim().split("\n");
+                helyesvalasz=adatok.shift();
+                //console.log(adatok);
+
+                adatok=adatok.map(x=>{
+
+                    const vag =x.split(" ");
+                    return{kod:vag[0],valaszok:vag[1]}
+
+                })
+                console.log(adatok);
+                f2()
+
             })
+            
         }
 
+
+        function f2()
+        {
+            let eredmeny=adatok.length
+            document.getElementById("f2").innerHTML=eredmeny;
+        }
+        
+        
+        
+        
     </script>
 </body>
 </html>
