@@ -30,7 +30,7 @@
                 <p>A vetélkedőn <span class="text-success fw-bold" id="f2"></span> versenyző indult.</p>
             </div>
             <div class="col-6">
-                <h2 class="text-primary">3.Feladat:</h2>
+                <h2 class="text-primary">3-4.Feladat:</h2>
                 <label for="f3">A versenyző azonosítója: </label>
                 <input type="text" class="form-control" value="AB123" id="azonosito">
                 <div class="text-center p-3 "><button onclick="f3()" class="btn btn-info">lekérés</button></div>
@@ -40,22 +40,25 @@
                 <div id="helyes" class="border"></div>
             </div>
              <div class="col-6">
-                <h2 class="text-primary">4.Feladat:</h2>
+                <h2 class="text-primary">5.Feladat:</h2>
                 <label for="f3">A feladat sorszáma: </label>
                 <input type="number" min="1" max="14" value="10" class="form-control" id="feladatsorszam">
                 <div class="text-center p-3 "><button onclick="f5()" class="btn btn-info">lekérés</button></div>
                 <h3>A versenyző válaszai:</h3>
                 <div id="eredmeny5" class="border">
-                    <p>A feladatra <span></span> fő, a versenyzők <span></span>%-a adott helyes választ. </p>
+                    <p>A feladatra <span id="helyesfo"></span> fő, a versenyzők <span id="szazalek"></span>%-a adott helyes választ. </p>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-3">
-                <p>4.feladat:</p> 
-                <button onclick="f4()" type="button" class="btn" ></button>
+             <div class="col-6">
+                <h2 class="text-primary">6.Feladat:</h2>
+                <div class="text-center fw-bold p-4">A versenyzők pontszámának meghatározása: <br><span id="kiir"></span></div>
+                 <div style="max-height: 200px; overflow-y: scroll;">
+                <ul id="eredmenyLista"></ul>
+                </div>
+                <div class="text-center p-3 "><button onclick="f6()" id="kiir" class="btn btn-info">kiiratás</button></div>
             </div>
         </div>
+        
     </div>
 
     <script>
@@ -172,7 +175,62 @@
         {
             const feladatszam=parseInt(document.getElementById("feladatsorszam").value)-1;
 
-           const szurt= adatok.filter(x => x.valaszok[feladatszam]==helyesvalasz[feladatszam])
+            const szurt= adatok.filter(x => x.valaszok[feladatszam]==helyesvalasz[feladatszam]);
+
+            document.getElementById("helyesfo").innerHTML=szurt.length;
+            document.getElementById("szazalek").innerHTML=((szurt.length/adatok.length)*100).toFixed(2);
+        }
+
+        function f6()
+        {
+            /*irasd ki ugy hogy egy listában jelenjen meg amit lehet görgetni, hogy kisebb helyen elférjen, tördelt a listát, egymás alatt legyenek az eredmények*/
+
+           
+
+            let eredmenyek=[];
+            adatok.forEach(versenyzo => {
+                let pontszam=0;
+                versenyzo.valaszok.split("").forEach((valasz,index) => {
+                    if(valasz==helyesvalasz[index])
+                    {
+                        if(index<5)
+                        {
+                            pontszam+=3;
+                        }
+                        else if(index<10)
+                        {
+                            pontszam+=4;
+                        }
+                        else if(index<13)
+                        {
+                            pontszam+=5;
+                        }
+                        else
+                        {
+                            pontszam+=6;
+                        }
+                    }
+                });
+                eredmenyek.push({kod:versenyzo.kod,pontszam:pontszam});
+            });
+            console.log(eredmenyek);
+
+             let szoveg="";
+             eredmenyek.forEach(x => {
+                szoveg+=x.kod+" "+x.pontszam+"\n";
+             });
+
+             const blob = new Blob([szoveg], {type: "text/plain"});
+             const url = URL.createObjectURL(blob);
+             const a = document.createElement("a");
+             a.href = url;
+             a.download = "pontok.txt";
+             a.click();
+             URL.revokeObjectURL(url);
+             /*tördelt a listát, egymás alatt legyenek az eredmények*/
+             document.getElementById("eredmenyLista").innerHTML="Azonosító(k) és Pontszám(ok)\n <br>"+szoveg.replace(/\n/g, "<br>");
+            document.getElementById("eredmenyLista").innerHTML+=szoveg.replace(/\n/g, "<br>");
+            document.getElementById("eredmenyLista").style.display = "block";
 
 
         }
