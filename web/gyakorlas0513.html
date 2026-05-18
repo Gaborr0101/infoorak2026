@@ -185,39 +185,32 @@
         {
            
             let eredmenyek=[];
+           let pontszam=0
             adatok.forEach(versenyzo => {
-                let pontszam=0;
+                pontszam=0;
                 versenyzo.valaszok.split("").forEach((valasz,index) => {
+                    
                     if(valasz==helyesvalasz[index])
                     {
-                        if(index<5)
-                        {
-                            pontszam+=3;
-                        }
-                        else if(index<10)
-                        {
-                            pontszam+=4;
-                        }
-                        else if(index<13)
-                        {
-                            pontszam+=5;
-                        }
-                        else
-                        {
-                            pontszam+=6;
-                        }
+
+                        if(index<5){pontszam+=3;}
+                        else if(index<11){pontszam+=4;}
+                        else if(index<14){pontszam+=5;}
+                        else {pontszam+=6;}
                     }
                 });
                 eredmenyek.push({kod:versenyzo.kod,pontszam:pontszam});
             });
             console.log(eredmenyek);
             let szoveg="";
+           
             eredmenyek.forEach(x => {
-                szoveg+=x.kod+" "+x.pontszam+"\n";
-            });
+                let progress="<progress class='progress-bar' value='"+x.pontszam+"' max='56'></progress>";
+                szoveg+=x.kod+" "+x.pontszam+" "+progress+"\n";});
 
             document.getElementById("eredmenyLista").innerHTML="Azonosító(k) és Pontszám(ok)\n <br>"+szoveg.replace(/\n/g, "<br>");
             document.getElementById("eredmenyLista").innerHTML+=szoveg.replace(/\n/g, "<br>");
+            
             document.getElementById("eredmenyLista").style.display = "block";
             
         }
@@ -230,22 +223,10 @@
                 versenyzo.valaszok.split("").forEach((valasz,index) => {
                     if(valasz==helyesvalasz[index])
                     {
-                        if(index<5)
-                        {
-                            pontszam+=3;
-                        }
-                        else if(index<10)
-                        {
-                            pontszam+=4;
-                        }
-                        else if(index<13)
-                        {
-                            pontszam+=5;
-                        }
-                        else
-                        {
-                            pontszam+=6;
-                        }
+                        if(index<5){pontszam+=3;}
+                        else if(index<10){pontszam+=4;}
+                        else if(index<13){pontszam+=5;}
+                        else{pontszam+=6;}
                     }
                 });
                 eredmenyek.push({kod:versenyzo.kod,pontszam:pontszam});
@@ -254,10 +235,8 @@
             //console.log(eredmenyek);
 
             let szoveg="";
-
-            eredmenyek.forEach(x => {
-                szoveg+=x.kod+" "+x.pontszam+"\n";
-            });
+            szoveg+="Azonosító(k) és Pontszám(ok)\n"
+            eredmenyek.forEach(x => {szoveg+=x.kod+" "+x.pontszam+"\n";});
 
             const blob = new Blob([szoveg], {type: "text/plain"});
             const url = URL.createObjectURL(blob);
